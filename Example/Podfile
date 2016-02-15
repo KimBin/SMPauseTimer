@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'SMPauseTimer_Example', :exclusive => true do
+  pod 'SMPauseTimer', :path => '../'
+end
+
+target 'SMPauseTimer_Tests', :exclusive => true do
+  pod 'SMPauseTimer', :path => '../'
+
+  
+end
