@@ -193,11 +193,11 @@ typedef NS_ENUM(NSInteger, SMTimerType) {
 - (void)configureNotifications {
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(pauseTimer)
-                                                 name:NSExtensionHostWillResignActiveNotification
+                                                 name:UIApplicationWillResignActiveNotification
                                                object:self];
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(resumeTimer)
-                                                 name:NSExtensionHostWillEnterForegroundNotification
+                                                 name:UIApplicationWillEnterForegroundNotification
                                                object:self];
 }
 
