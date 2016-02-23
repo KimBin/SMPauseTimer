@@ -1,0 +1,6 @@
+framework module SMPauseTimer {
+  umbrella header "SMPauseTimer-umbrella.h"
+
+  export *
+  module * { export * }
+}

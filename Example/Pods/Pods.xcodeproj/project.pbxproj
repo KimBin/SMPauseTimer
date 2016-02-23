@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08DDA187473B8C6A310E351B05CF9B8E /* Pods-SMPauseTimer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 236E772107B0E3C64F9FDF9A6D0205AA /* Pods-SMPauseTimer_Tests-dummy.m */; };
+		2341E0D895563E148C610F7AAE632771 /* SMPauseTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6633E245DDD36620696E2D33CFB40BCB /* SMPauseTimer.m */; };
+		3D41DE661EEB7531EF950F30700AC604 /* SMPauseTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 340220C7CE8A58DC7B311E16BB993D55 /* SMPauseTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		596C3AC1840F388CDD5222FCA4F655B6 /* SMPauseTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E7853F8314E54A73AC2B9F4A5FA91C /* SMPauseTimer-dummy.m */; };
+		724844DDEE55ABBF0F36FEF57A348A4E /* SMPauseTimer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7696969BDBCF4A5E9F02879C981FBC99 /* SMPauseTimer.bundle */; };
+		99EEFEC24E2F3D048303B42944AE16D8 /* Pods-SMPauseTimer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9285A98AA5004813A3B43195F96C6F /* Pods-SMPauseTimer_Example-dummy.m */; };
+		A1810F802988736D76CE4747C96B061E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		BC6FBF68E1FD36EEC9D7B9A514011526 /* Pods-SMPauseTimer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6331F3B13310CC052A468D68121D9EDD /* Pods-SMPauseTimer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C62114FD0271A27CF929F1677E1CFF14 /* SMPauseTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 74F64EF810327D6E910F584D0D0075F9 /* SMPauseTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D775C6265619EFE27CF479B22498C5B4 /* Pods-SMPauseTimer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCDB885C08B4B15DEEE5A373686F366 /* Pods-SMPauseTimer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F335644313E94EBED2237267F8FA0623 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		F6F7F7A374F1D2ED3DE1A3FB88B190BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28E64C189C5B1E9134B5402C2A6BAFB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58D5AA4CADB71A610B6165630B74E199;
+			remoteInfo = "SMPauseTimer-SMPauseTimer";
+		};
+		4DA734E9C101100B0F10206190CD600C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B83669140A85D0B70FA78195E4F47257;
+			remoteInfo = SMPauseTimer;
+		};
+		9906EEFB6D0D4B84637E38CEA10DD418 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B83669140A85D0B70FA78195E4F47257;
+			remoteInfo = SMPauseTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A955F302450CECE0AC59B6C6DB39DBC /* Pods-SMPauseTimer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMPauseTimer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		15023EE493FE69187BAD92BC5FA9995F /* Pods-SMPauseTimer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMPauseTimer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		191DE94FF28117AB72CCD09D8801C023 /* Pods_SMPauseTimer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMPauseTimer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB852A69F9EEF22255E01B1B03EB891 /* Pods-SMPauseTimer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SMPauseTimer_Example.modulemap"; sourceTree = "<group>"; };
+		1D686464D26ECD6DD1383FA2D838264C /* Pods_SMPauseTimer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMPauseTimer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2083F3D5495628C24A078DDD3FACCC39 /* Pods-SMPauseTimer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SMPauseTimer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		236E772107B0E3C64F9FDF9A6D0205AA /* Pods-SMPauseTimer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMPauseTimer_Tests-dummy.m"; sourceTree = "<group>"; };
+		340220C7CE8A58DC7B311E16BB993D55 /* SMPauseTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMPauseTimer-umbrella.h"; sourceTree = "<group>"; };
+		39B3E0A39C9340BB643984F557BDFBE9 /* Pods-SMPauseTimer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SMPauseTimer_Tests.modulemap"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4FEA7D0771DA62EDBCC5421770D59A7C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53FDF9EEBE050AD61CF822A69A91DCE2 /* Pods-SMPauseTimer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMPauseTimer_Example-resources.sh"; sourceTree = "<group>"; };
+		54780FAACF33D431C7D602EAD8BA5E9E /* Pods-SMPauseTimer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMPauseTimer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5A0BD81404BA524FDF95DD56EE46E0A2 /* SMPauseTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SMPauseTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E51BA83445C85654F9C91BE46B84931 /* SMPauseTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SMPauseTimer.xcconfig; sourceTree = "<group>"; };
+		6331F3B13310CC052A468D68121D9EDD /* Pods-SMPauseTimer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMPauseTimer_Example-umbrella.h"; sourceTree = "<group>"; };
+		64CBF9D825F7FE9F5C78DF6A32D267D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6633E245DDD36620696E2D33CFB40BCB /* SMPauseTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SMPauseTimer.m; sourceTree = "<group>"; };
+		74F64EF810327D6E910F584D0D0075F9 /* SMPauseTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SMPauseTimer.h; sourceTree = "<group>"; };
+		7696969BDBCF4A5E9F02879C981FBC99 /* SMPauseTimer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMPauseTimer.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CCDB885C08B4B15DEEE5A373686F366 /* Pods-SMPauseTimer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMPauseTimer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B8C0B48FB3B537598BB8833DCA7B8245 /* Pods-SMPauseTimer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMPauseTimer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBD2CE09A5335417920E829F19F7A01D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC6C2C9A09BE3850BA5DC3492B2D23A8 /* SMPauseTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SMPauseTimer.modulemap; sourceTree = "<group>"; };
+		C27D183FCF94FEE0BE7F07536B728CD0 /* Pods-SMPauseTimer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMPauseTimer_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CA9285A98AA5004813A3B43195F96C6F /* Pods-SMPauseTimer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMPauseTimer_Example-dummy.m"; sourceTree = "<group>"; };
+		DC97D8163AD8C0CFB80910E0A2A0AD45 /* Pods-SMPauseTimer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMPauseTimer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EAD4F81561B9B3F2C2498BA096BE4C61 /* SMPauseTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMPauseTimer-prefix.pch"; sourceTree = "<group>"; };
+		F367997368BED3BD5873EFF0ADE9C248 /* Pods-SMPauseTimer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SMPauseTimer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F5147738EEBFC0CBF28DEB0002CF9D02 /* Pods-SMPauseTimer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMPauseTimer_Tests-resources.sh"; sourceTree = "<group>"; };
+		F570C20ADB1A4B00A45ED8F02DBC5217 /* Pods-SMPauseTimer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMPauseTimer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F58B6DCCD6EB4322B8C48C309AAE2A71 /* Pods-SMPauseTimer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMPauseTimer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F5E7853F8314E54A73AC2B9F4A5FA91C /* SMPauseTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SMPauseTimer-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2590B023CB8CC34D7AB83CA8575B47D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A56F4B71F1E1B2BD68D95DDC222FBEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F7F7A374F1D2ED3DE1A3FB88B190BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9222DB7BA51214ADEB6CDB52FADA8DF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1810F802988736D76CE4747C96B061E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD00513A22646F37FCF01F125350140E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F335644313E94EBED2237267F8FA0623 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		245AA0A822D1D1827F0FF646BBAE19B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D686464D26ECD6DD1383FA2D838264C /* Pods_SMPauseTimer_Example.framework */,
+				191DE94FF28117AB72CCD09D8801C023 /* Pods_SMPauseTimer_Tests.framework */,
+				7696969BDBCF4A5E9F02879C981FBC99 /* SMPauseTimer.bundle */,
+				5A0BD81404BA524FDF95DD56EE46E0A2 /* SMPauseTimer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B7923F700440C9F40D641E9B8AC3694 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DA5C6F8D9F11966B9CE14B6F38AE1E9 /* SMPauseTimer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5DDBCB3E6AE9483B68F8EC4A2F69F99A /* Pods-SMPauseTimer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BBD2CE09A5335417920E829F19F7A01D /* Info.plist */,
+				1AB852A69F9EEF22255E01B1B03EB891 /* Pods-SMPauseTimer_Example.modulemap */,
+				F367997368BED3BD5873EFF0ADE9C248 /* Pods-SMPauseTimer_Example-acknowledgements.markdown */,
+				F58B6DCCD6EB4322B8C48C309AAE2A71 /* Pods-SMPauseTimer_Example-acknowledgements.plist */,
+				CA9285A98AA5004813A3B43195F96C6F /* Pods-SMPauseTimer_Example-dummy.m */,
+				B8C0B48FB3B537598BB8833DCA7B8245 /* Pods-SMPauseTimer_Example-frameworks.sh */,
+				53FDF9EEBE050AD61CF822A69A91DCE2 /* Pods-SMPauseTimer_Example-resources.sh */,
+				6331F3B13310CC052A468D68121D9EDD /* Pods-SMPauseTimer_Example-umbrella.h */,
+				54780FAACF33D431C7D602EAD8BA5E9E /* Pods-SMPauseTimer_Example.debug.xcconfig */,
+				DC97D8163AD8C0CFB80910E0A2A0AD45 /* Pods-SMPauseTimer_Example.release.xcconfig */,
+			);
+			name = "Pods-SMPauseTimer_Example";
+			path = "Target Support Files/Pods-SMPauseTimer_Example";
+			sourceTree = "<group>";
+		};
+		738D0A449D1B2990DE3918A2A239BC4F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FEA7D0771DA62EDBCC5421770D59A7C /* Info.plist */,
+				BC6C2C9A09BE3850BA5DC3492B2D23A8 /* SMPauseTimer.modulemap */,
+				5E51BA83445C85654F9C91BE46B84931 /* SMPauseTimer.xcconfig */,
+				F5E7853F8314E54A73AC2B9F4A5FA91C /* SMPauseTimer-dummy.m */,
+				EAD4F81561B9B3F2C2498BA096BE4C61 /* SMPauseTimer-prefix.pch */,
+				340220C7CE8A58DC7B311E16BB993D55 /* SMPauseTimer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SMPauseTimer";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				2B7923F700440C9F40D641E9B8AC3694 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				245AA0A822D1D1827F0FF646BBAE19B2 /* Products */,
+				9EDA01F766F309A923AA59A55867A024 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8DA5C6F8D9F11966B9CE14B6F38AE1E9 /* SMPauseTimer */ = {
+			isa = PBXGroup;
+			children = (
+				C4E567A024CDB997398CF31657C9B7FA /* Pod */,
+				738D0A449D1B2990DE3918A2A239BC4F /* Support Files */,
+			);
+			name = SMPauseTimer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9EDA01F766F309A923AA59A55867A024 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DDBCB3E6AE9483B68F8EC4A2F69F99A /* Pods-SMPauseTimer_Example */,
+				F367A63B1C7FD74B6E4C176D2114892A /* Pods-SMPauseTimer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B4DE5EC34149A65A7B6477149A354502 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				74F64EF810327D6E910F584D0D0075F9 /* SMPauseTimer.h */,
+				6633E245DDD36620696E2D33CFB40BCB /* SMPauseTimer.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C4E567A024CDB997398CF31657C9B7FA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B4DE5EC34149A65A7B6477149A354502 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		F367A63B1C7FD74B6E4C176D2114892A /* Pods-SMPauseTimer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				64CBF9D825F7FE9F5C78DF6A32D267D9 /* Info.plist */,
+				39B3E0A39C9340BB643984F557BDFBE9 /* Pods-SMPauseTimer_Tests.modulemap */,
+				2083F3D5495628C24A078DDD3FACCC39 /* Pods-SMPauseTimer_Tests-acknowledgements.markdown */,
+				15023EE493FE69187BAD92BC5FA9995F /* Pods-SMPauseTimer_Tests-acknowledgements.plist */,
+				236E772107B0E3C64F9FDF9A6D0205AA /* Pods-SMPauseTimer_Tests-dummy.m */,
+				C27D183FCF94FEE0BE7F07536B728CD0 /* Pods-SMPauseTimer_Tests-frameworks.sh */,
+				F5147738EEBFC0CBF28DEB0002CF9D02 /* Pods-SMPauseTimer_Tests-resources.sh */,
+				8CCDB885C08B4B15DEEE5A373686F366 /* Pods-SMPauseTimer_Tests-umbrella.h */,
+				0A955F302450CECE0AC59B6C6DB39DBC /* Pods-SMPauseTimer_Tests.debug.xcconfig */,
+				F570C20ADB1A4B00A45ED8F02DBC5217 /* Pods-SMPauseTimer_Tests.release.xcconfig */,
+			);
+			name = "Pods-SMPauseTimer_Tests";
+			path = "Target Support Files/Pods-SMPauseTimer_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		35F683D23B0C8A0B3D590B0B0E5DE4BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D775C6265619EFE27CF479B22498C5B4 /* Pods-SMPauseTimer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630CE5521207B0ED217E6EB8AE4D9237 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D41DE661EEB7531EF950F30700AC604 /* SMPauseTimer-umbrella.h in Headers */,
+				C62114FD0271A27CF929F1677E1CFF14 /* SMPauseTimer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B903F0EF8793C66A47C9A9D249D113FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6FBF68E1FD36EEC9D7B9A514011526 /* Pods-SMPauseTimer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		58D5AA4CADB71A610B6165630B74E199 /* SMPauseTimer-SMPauseTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76FE6EE3EFE593FEA58B6B90D5B9B69D /* Build configuration list for PBXNativeTarget "SMPauseTimer-SMPauseTimer" */;
+			buildPhases = (
+				7130DEAD4B944EB4767CD6C0CDE92657 /* Sources */,
+				2590B023CB8CC34D7AB83CA8575B47D8 /* Frameworks */,
+				90130B4BE0B68AE5F2D12C4B28088A9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SMPauseTimer-SMPauseTimer";
+			productName = "SMPauseTimer-SMPauseTimer";
+			productReference = 7696969BDBCF4A5E9F02879C981FBC99 /* SMPauseTimer.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B83669140A85D0B70FA78195E4F47257 /* SMPauseTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 535A29D6BE34C85E36458A04B7FE07D1 /* Build configuration list for PBXNativeTarget "SMPauseTimer" */;
+			buildPhases = (
+				6D6E3F157E1769E63227159B7F59D578 /* Sources */,
+				9222DB7BA51214ADEB6CDB52FADA8DF1 /* Frameworks */,
+				FBCFAE3395D55F3FF867731442CF19F6 /* Resources */,
+				630CE5521207B0ED217E6EB8AE4D9237 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20B49105748DCA16AB7FD22FE9432BD7 /* PBXTargetDependency */,
+			);
+			name = SMPauseTimer;
+			productName = SMPauseTimer;
+			productReference = 5A0BD81404BA524FDF95DD56EE46E0A2 /* SMPauseTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2D180AE39FAE505C5B5AF11CB20EEFD /* Pods-SMPauseTimer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10A9CCAA6FE0C08F922C13950CB7D82 /* Build configuration list for PBXNativeTarget "Pods-SMPauseTimer_Tests" */;
+			buildPhases = (
+				2EBF966CE629BB4420AE373B54AB346F /* Sources */,
+				6A56F4B71F1E1B2BD68D95DDC222FBEA /* Frameworks */,
+				35F683D23B0C8A0B3D590B0B0E5DE4BE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55DE8CEDC26AB457A7662DEC329D9218 /* PBXTargetDependency */,
+			);
+			name = "Pods-SMPauseTimer_Tests";
+			productName = "Pods-SMPauseTimer_Tests";
+			productReference = 191DE94FF28117AB72CCD09D8801C023 /* Pods_SMPauseTimer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ECACF3F87FD2B98B4202B1E9096B6412 /* Pods-SMPauseTimer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B225CAB21FECA7FC49A5313A93BE2695 /* Build configuration list for PBXNativeTarget "Pods-SMPauseTimer_Example" */;
+			buildPhases = (
+				AAA400D0BA2C51B6E1DA36F60B7A9B8D /* Sources */,
+				AD00513A22646F37FCF01F125350140E /* Frameworks */,
+				B903F0EF8793C66A47C9A9D249D113FD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DC28139E5C8F0AC7DB30F2C00E6FB5D /* PBXTargetDependency */,
+			);
+			name = "Pods-SMPauseTimer_Example";
+			productName = "Pods-SMPauseTimer_Example";
+			productReference = 1D686464D26ECD6DD1383FA2D838264C /* Pods_SMPauseTimer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0720;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 245AA0A822D1D1827F0FF646BBAE19B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECACF3F87FD2B98B4202B1E9096B6412 /* Pods-SMPauseTimer_Example */,
+				D2D180AE39FAE505C5B5AF11CB20EEFD /* Pods-SMPauseTimer_Tests */,
+				B83669140A85D0B70FA78195E4F47257 /* SMPauseTimer */,
+				58D5AA4CADB71A610B6165630B74E199 /* SMPauseTimer-SMPauseTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90130B4BE0B68AE5F2D12C4B28088A9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBCFAE3395D55F3FF867731442CF19F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724844DDEE55ABBF0F36FEF57A348A4E /* SMPauseTimer.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EBF966CE629BB4420AE373B54AB346F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08DDA187473B8C6A310E351B05CF9B8E /* Pods-SMPauseTimer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D6E3F157E1769E63227159B7F59D578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				596C3AC1840F388CDD5222FCA4F655B6 /* SMPauseTimer-dummy.m in Sources */,
+				2341E0D895563E148C610F7AAE632771 /* SMPauseTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7130DEAD4B944EB4767CD6C0CDE92657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAA400D0BA2C51B6E1DA36F60B7A9B8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99EEFEC24E2F3D048303B42944AE16D8 /* Pods-SMPauseTimer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20B49105748DCA16AB7FD22FE9432BD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SMPauseTimer-SMPauseTimer";
+			target = 58D5AA4CADB71A610B6165630B74E199 /* SMPauseTimer-SMPauseTimer */;
+			targetProxy = 28E64C189C5B1E9134B5402C2A6BAFB2 /* PBXContainerItemProxy */;
+		};
+		55DE8CEDC26AB457A7662DEC329D9218 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SMPauseTimer;
+			target = B83669140A85D0B70FA78195E4F47257 /* SMPauseTimer */;
+			targetProxy = 4DA734E9C101100B0F10206190CD600C /* PBXContainerItemProxy */;
+		};
+		9DC28139E5C8F0AC7DB30F2C00E6FB5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SMPauseTimer;
+			target = B83669140A85D0B70FA78195E4F47257 /* SMPauseTimer */;
+			targetProxy = 9906EEFB6D0D4B84637E38CEA10DD418 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D278A4AA715A7399CFA035A72872076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E51BA83445C85654F9C91BE46B84931 /* SMPauseTimer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SMPauseTimer/SMPauseTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SMPauseTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SMPauseTimer/SMPauseTimer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = SMPauseTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4CBD6573463E5C62546520CFB7DBC107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E51BA83445C85654F9C91BE46B84931 /* SMPauseTimer.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SMPauseTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7A04DF549B1D439E32A7DBA3D97BA783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E51BA83445C85654F9C91BE46B84931 /* SMPauseTimer.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SMPauseTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		866D43B54FD8BA556AA55AAAE0F99B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E51BA83445C85654F9C91BE46B84931 /* SMPauseTimer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SMPauseTimer/SMPauseTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SMPauseTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SMPauseTimer/SMPauseTimer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = SMPauseTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8CD53E7094BE4AFB22CA810ED8F7B3E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54780FAACF33D431C7D602EAD8BA5E9E /* Pods-SMPauseTimer_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SMPauseTimer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMPauseTimer_Example/Pods-SMPauseTimer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SMPauseTimer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9EB645C612834738B99727720210C23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AEAEC9EED43B7F009B638A83587437E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A955F302450CECE0AC59B6C6DB39DBC /* Pods-SMPauseTimer_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SMPauseTimer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMPauseTimer_Tests/Pods-SMPauseTimer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SMPauseTimer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E39CD1E764776175CB82EEC82A6C9948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3DE59E86E8C715701A804CE240EEA2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC97D8163AD8C0CFB80910E0A2A0AD45 /* Pods-SMPauseTimer_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SMPauseTimer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMPauseTimer_Example/Pods-SMPauseTimer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SMPauseTimer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDA9DC9DAD62C7C933A744DE61875472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F570C20ADB1A4B00A45ED8F02DBC5217 /* Pods-SMPauseTimer_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SMPauseTimer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMPauseTimer_Tests/Pods-SMPauseTimer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SMPauseTimer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB645C612834738B99727720210C23E /* Debug */,
+				E39CD1E764776175CB82EEC82A6C9948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		535A29D6BE34C85E36458A04B7FE07D1 /* Build configuration list for PBXNativeTarget "SMPauseTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D278A4AA715A7399CFA035A72872076 /* Debug */,
+				866D43B54FD8BA556AA55AAAE0F99B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76FE6EE3EFE593FEA58B6B90D5B9B69D /* Build configuration list for PBXNativeTarget "SMPauseTimer-SMPauseTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CBD6573463E5C62546520CFB7DBC107 /* Debug */,
+				7A04DF549B1D439E32A7DBA3D97BA783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B225CAB21FECA7FC49A5313A93BE2695 /* Build configuration list for PBXNativeTarget "Pods-SMPauseTimer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD53E7094BE4AFB22CA810ED8F7B3E1 /* Debug */,
+				E3DE59E86E8C715701A804CE240EEA2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D10A9CCAA6FE0C08F922C13950CB7D82 /* Build configuration list for PBXNativeTarget "Pods-SMPauseTimer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEAEC9EED43B7F009B638A83587437E1 /* Debug */,
+				FDA9DC9DAD62C7C933A744DE61875472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

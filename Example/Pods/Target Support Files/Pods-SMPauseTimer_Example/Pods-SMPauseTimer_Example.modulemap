@@ -1,0 +1,6 @@
+framework module Pods_SMPauseTimer_Example {
+  umbrella header "Pods-SMPauseTimer_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

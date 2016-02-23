@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "SMPauseTimer_Example.app"
-               BlueprintName = "SMPauseTimer_Example"
-               ReferencedContainer = "container:SMPauseTimer.xcodeproj">
+               BlueprintIdentifier = "B83669140A85D0B70FA78195E4F47257"
+               BuildableName = "SMPauseTimer.framework"
+               BlueprintName = "SMPauseTimer"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,26 +29,7 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       codeCoverageEnabled = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "SMPauseTimer_Tests.xctest"
-               BlueprintName = "SMPauseTimer_Tests"
-               ReferencedContainer = "container:SMPauseTimer.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "SMPauseTimer_Example.app"
-            BlueprintName = "SMPauseTimer_Example"
-            ReferencedContainer = "container:SMPauseTimer.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -62,16 +43,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "SMPauseTimer_Example.app"
-            BlueprintName = "SMPauseTimer_Example"
-            ReferencedContainer = "container:SMPauseTimer.xcodeproj">
+            BlueprintIdentifier = "B83669140A85D0B70FA78195E4F47257"
+            BuildableName = "SMPauseTimer.framework"
+            BlueprintName = "SMPauseTimer"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -81,16 +61,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "SMPauseTimer_Example.app"
-            BlueprintName = "SMPauseTimer_Example"
-            ReferencedContainer = "container:SMPauseTimer.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

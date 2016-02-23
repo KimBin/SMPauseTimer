@@ -1,0 +1,14 @@
+PODS:
+  - SMPauseTimer (0.1.11)
+
+DEPENDENCIES:
+  - SMPauseTimer (from `../`)
+
+EXTERNAL SOURCES:
+  SMPauseTimer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SMPauseTimer: bdf96f50d0d850f760dc1dad382de1cd538744f1
+
+COCOAPODS: 0.39.0
